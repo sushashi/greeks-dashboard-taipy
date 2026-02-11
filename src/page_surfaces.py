@@ -38,17 +38,17 @@ page_surfaces = """
 
 <|layout|columns=1 1|
 
-<|chart|figure={fig_surface_price}|>
+<|chart|figure={fig_surface_price}|decimate=0.1|>
 
-<|chart|figure={fig_surface_delta}|>
+<|chart|figure={fig_surface_delta}|decimate=0.1|>
 
-<|chart|figure={fig_surface_gamma}|>
+<|chart|figure={fig_surface_gamma}|decimate=0.1|>
 
-<|chart|figure={fig_surface_vega}|>
+<|chart|figure={fig_surface_vega}|decimate=0.1|>
 
-<|chart|figure={fig_surface_theta}|>
+<|chart|figure={fig_surface_theta}|decimate=0.1|>
 
-<|chart|figure={fig_surface_rho}|>
+<|chart|figure={fig_surface_rho}|decimate=0.1|>
 
 |>
 |>

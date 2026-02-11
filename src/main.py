@@ -6,9 +6,9 @@ from utils import *
 from page_greeks import page_greeks
 from page_surfaces import page_surfaces
 
-S = np.arange(0.01, 200, 0.1)
+S = np.arange(0.01, 200, 2)
 T = 1.0
-T_range = np.arange(0.01, 1.0, 0.01)
+T_range = np.arange(0.01, 1.0, 0.05)
 r = 0.01
 sigma = 0.3
 K = 100
