@@ -25,7 +25,7 @@ page_greeks = """
 <|{r}|slider|min=0.0|max=0.2|step=0.01|on_change=update_plot|> 
 
 **Time to maturity** <|{T}|text|><br/>
-<|{T}|slider|min=0.01|max=2.0|step=0.01|on_change=update_plot|> 
+<|{T}|slider|min=0.01|max=2.0|step=0.05|on_change=update_plot|> 
 
 |>
 |>
