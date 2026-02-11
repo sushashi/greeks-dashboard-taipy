@@ -1,6 +1,6 @@
 # Greeks Dashboard
 
-Greeks Dashboard is a web application for visualizing options Greeks for vanilla options using the Black-Scholes model.
+Greeks Dashboard is a web application for visualizing option greeks for vanilla options using the Black-Scholes model.
 
 Built with [Taipy](https://taipy.io/), a Python library for data webapp.
 
@@ -8,7 +8,7 @@ Built with [Taipy](https://taipy.io/), a Python library for data webapp.
 
 The idea was to create something more interactive than the explanations in my notebook about derivatives while learning how to use Taipy. All Black-Scholes computation code is reused from the original notebook.
 
-Source code and basic introduction to derivatives and option Greeks in my [**Notebook**](https://github.com/sushashi/finance-notebooks/blob/main/01_Intro_Derivatives_BSM_Greeks.ipynb)
+Source code and basic introduction to derivatives and option greeks in my [**Notebook**](https://github.com/sushashi/finance-notebooks/blob/main/01_Intro_Derivatives_BSM_Greeks.ipynb)
 
 ## Installation
  
