@@ -13,16 +13,16 @@ page_surfaces = """
 ## Variables
 
 **Option Type**<br/>
-<|{option_type}|toggle|lov=Call; Put|on_change=update_surfaces|>
+<|{option_type}|toggle|lov=Call; Put|>
 
 **Strike price:** <|{K}|text|><br/>
-<|{K}|slider|min=50|max=150|on_change=update_surfaces|>
+<|{K}|slider|min=50|max=150|>
 
 **Volatility:** <|{sigma}|text|><br/>
-<|{sigma}|slider|min=0.1|max=2|step=0.1|on_change=update_surfaces|>
+<|{sigma}|slider|min=0.1|max=2|step=0.1|>
 
 **Interest rate:** <|{r}|text|><br/>
-<|{r}|slider|min=0.0|max=0.2|step=0.01|on_change=update_surfaces|>
+<|{r}|slider|min=0.0|max=0.2|step=0.01|>
 
 <|Update Surfaces|button|on_action=update_surfaces|>
 

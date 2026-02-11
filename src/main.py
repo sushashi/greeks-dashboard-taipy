@@ -7,7 +7,7 @@ from utils import *
 from page_greeks import page_greeks
 from page_surfaces import page_surfaces
 
-S = np.arange(0.01, 200, 3)
+S = np.arange(20, 180, 2)
 T = 1.0
 T_range = np.arange(0.01, 1.0, 0.05)
 r = 0.01
@@ -47,7 +47,6 @@ show_pane = True
 progress_value = 0
 
 def update_surfaces(state):
-    time.sleep(1)
     if state.option_type == "Call":
         state.fig_surface_price = plot_surface(X, Y, BSM_call(X, state.K, Y, state.r, state.sigma), "Price")
         state.progress_value = 16
