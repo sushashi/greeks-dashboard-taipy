@@ -24,6 +24,7 @@ taipy run main.py
 
 ```
 git clone https://github.com/sushashi/greeks-dashboard-taipy
+cd greeks-dashboard-taipy
 docker-compose up
 ```
 
